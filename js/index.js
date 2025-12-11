@@ -25,7 +25,7 @@ function handleSubmit(e) {
     e.preventDefault();
     const inputValue = emailInput.value.trim();
     if (inputValue && isValidEmail(inputValue)) {
-        email.value = '';
+        emailInput.value = '';
         hideError();
         return;
     }
