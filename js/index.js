@@ -33,4 +33,4 @@ function handleSubmit(e) {
 }
 
 form.addEventListener("submit", handleSubmit);
-email.addEventListener("input", hideError);
+emailInput.addEventListener("input", hideError);
