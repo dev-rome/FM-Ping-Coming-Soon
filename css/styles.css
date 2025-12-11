@@ -97,8 +97,17 @@ body {
   color: var(--blue-200);
 }
 
-.hero__input[type="email"] {
-  color: var(--blue-950);
+.hero__input:focus {
+  outline: none;
+}
+
+.hero__input.input--error {
+  border: 1px solid var(--red-400);
+}
+
+.hero__input.input--error:focus {
+  border: 1px solid var(--red-400);
+  outline: none;
 }
 
 .hero__error {
