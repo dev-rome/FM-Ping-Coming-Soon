@@ -1,4 +1,49 @@
-@import "./variables.css";
+:root {
+  /* Core neutrals */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Blue */
+  --blue-950: #15202a;
+  --blue-500: #1148d4;
+  --blue-200: #c2d3ff;
+
+  /* Gray */
+  --gray-400: #495057;
+  --gray-100: #ebebeb;
+  --gray-50: #fbfcff;
+
+  /* Red */
+  --red-400: #ff5466;
+  /* Green */
+  --green-500: #2ecc71;
+
+  /* Typography */
+  --font-family-sans: "Libre Franklin", sans-serif;
+  /* Font Weight */
+  --font-weight-light: 300;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  /* Font Sizes */
+  --font-size-48: 3rem; /* 48px */
+  --font-size-20: 1.25rem; /* 20px */
+  --font-size-16: 1rem; /* 16px */
+  --font-size-12: 0.75rem; /* 12px */
+  --font-size-10: 0.625rem; /* 10px */
+
+  /* Spacing */
+  --space-800: 6rem; /* 96px */
+  --space-700: 4.5rem; /* 72px */
+  --space-600: 3rem; /* 48px */
+  --space-500: 2.5rem; /* 40px */
+  --space-400: 2rem; /* 32px */
+  --space-300: 1.5rem; /* 24px */
+  --space-200: 1rem; /* 16px */
+  --space-150: 0.75rem; /* 12px */
+  --space-100: 0.5rem; /* 8px */
+  --space-0: 0rem; /* 0px */
+}
+
 *,
 *::before,
 *::after {
@@ -127,6 +172,7 @@ body {
   padding-block: var(--space-150);
   box-shadow: 0 5px 10px 2px #4c7bf323;
   width: 100%;
+  letter-spacing: 0.5px;
 }
 
 .main {
